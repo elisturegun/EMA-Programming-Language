@@ -1,0 +1,16 @@
+### example program 1 ###
+bool x = in("enter value: ")                                
+bool y = in("enter value: ")
+bool z = in("enter value: ")
+
+while ( x == true && y == true && z == true ) {
+	out("enter at least one false value!")
+	x = in("enter value: ")
+	y = in("enter value: ")
+	z = in("enter value: ")
+}
+	
+bool ans1 = x ==> y
+bool ans2 = !x <==> y
+out("x implies y: ", ans1)
+out("not x doubly-implies y: ", ans2)

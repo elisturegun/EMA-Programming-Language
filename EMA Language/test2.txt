@@ -1,0 +1,24 @@
+###example program 2###
+bool func foo(bool p, bool q, bool  r) {
+	out("Function name: foo")
+	out("p = ", p)
+	out("q = ", q)
+	out("r = ", r)
+if ( r == true ) {
+	return ( p ==> ( q || r ) )
+}
+else {
+	return ( q <==> r )
+        }
+}
+bool a
+bool b
+bool c
+for a loop [true, false] {
+	for b loop [true, false] {
+		c = foo(a, b, false)
+out("a = ", a)
+out("b = ", b)
+out("c = ", c)
+        }
+}
